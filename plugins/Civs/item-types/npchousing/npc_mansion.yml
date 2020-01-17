@@ -31,7 +31,7 @@ rebuild:
 - basemansion
 - npc_chalet
 rebuild-required: true
-build-radius: 10 21x21x21
+build-radius: 10 #21x21x21
 effects:
 - block_break
 - block_build
@@ -46,7 +46,7 @@ towns:
 - city
 - metropolis
 
-period: 7200 2 hours
+period: 7200 #2 hours
 upkeep:
   0:
     power-input: 1

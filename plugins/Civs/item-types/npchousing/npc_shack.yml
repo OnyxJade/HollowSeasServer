@@ -45,7 +45,7 @@ effects:
 - chest_use
 - housing:1
 - villager
-period: 3600  1 hour
+period: 3600  #1 hour
 upkeep:
   0:
     power-input: 1

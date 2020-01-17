@@ -31,7 +31,7 @@ rebuild:
 - basehovel
 - npc_shack
 rebuild-required: true
-build-radius: 4 9x9x9
+build-radius: 4 #9x9x9
 effects:
 - block_break
 - block_build
@@ -49,7 +49,7 @@ towns:
 - city
 - metropolis
 
-period: 3600 1 hour
+period: 3600 #1 hour
 upkeep:
   0:
     power-input: 1
