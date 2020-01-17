@@ -12,6 +12,7 @@ level: 2
 pre-reqs:
 - member=settlement:hamlet:village:town:city:metropolis
 - baseshack:built=1
+- perm=civs.create.npchousing
 
 build-reqs:
 - CHEST*2

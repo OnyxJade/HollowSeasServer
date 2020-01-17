@@ -13,6 +13,7 @@ level: 3
 pre-reqs:
 - member=hamlet:village:town:city:metropolis
 - basedwelling:built=1|npc_hovel:built=1
+- perm=civs.create.npchousing
 
 build-reqs:
 - CHEST*4
