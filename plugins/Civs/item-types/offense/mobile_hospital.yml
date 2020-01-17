@@ -7,6 +7,9 @@ groups:
 - offense
 level: 1
 
+pre-reqs:
+- perm=civs.create.dukeoffence
+
 build-radius: 4  9x9x9
 build-reqs:
 - g:window*4

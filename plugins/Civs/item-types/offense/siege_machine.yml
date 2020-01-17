@@ -9,6 +9,9 @@ groups:
 - townpowerreduce
 level: 1
 
+pre-reqs:
+- perm=civs.create.dukeoffence
+
 build-reqs:
 - TNT*5
 - SIGN*1,WALL_SIGN*1

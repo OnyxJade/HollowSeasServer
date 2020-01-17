@@ -8,6 +8,9 @@ groups:
 - offense
 level: 1
 
+pre-reqs:
+- perm=civs.create.dukeoffence
+
 build-reqs:
 - g:sign*1
 - CHEST*2

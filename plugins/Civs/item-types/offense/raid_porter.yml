@@ -8,6 +8,9 @@ groups:
 - raidport
 level: 1
 
+pre-reqs:
+- perm=civs.create.dukeoffence
+
 build-reqs:
 - TNT*5
 - g:sign*1

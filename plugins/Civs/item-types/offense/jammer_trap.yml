@@ -7,6 +7,9 @@ groups:
   - offense
 level: 1
 
+pre-reqs:
+- perm=civs.create.dukeoffence
+
 build-reqs:
   - TNT*4
   - OBSIDIAN*2
