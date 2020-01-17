@@ -32,7 +32,7 @@ effects:
 - block_liquid
 - block_fire
 
-period: 1800 #30m EDIT EN.YML
+period: 1800 #30m
 upkeep:
   0:
     power-input: 1
