@@ -22,7 +22,7 @@ limits:
 - arrowtrapgroup:1
 - siegemachinegroup:2
 
-build-radius: 24  49x1000x49
+build-radius: 24  #49x1000x49
 build-radius-y: 500
 effects:
 - exempt_housing
