@@ -24,7 +24,7 @@ explosion-override: false
 destroy-towns-at-zero: false #should towns be destroyed if at zero power
 
 use-delayed-region-upkeep-in-unloaded-chunks: true
-disable-regions-in-unloaded-chunks: false
+disable-regions-in-unloaded-chunks: true
 
 # the max amount that an owner can tax per day of each town member (only certain gov types)
 max-town-tax: 100.0
@@ -38,7 +38,7 @@ use-starter-book: true
 #whether or not the glass box should appear to show the region's boundaries
 use-region-bounding-box: true
 #should region dimensions be shown with particles instead of glass?
-use-particle-bounding-boxes: false
+use-particle-bounding-boxes: true
 
 price-multiplier: 1.0 #multiplier for prices before adding base price
 price-base: 0.0 #added to all item prices
