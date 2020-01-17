@@ -27,7 +27,7 @@ effects:
 - block_liquid
 - block_fire
 
-period: 900  15 minutes
+period: 900  #15 minutes
 upkeep:
   0:
     power-output: 1

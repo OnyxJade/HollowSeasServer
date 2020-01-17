@@ -10,7 +10,7 @@ level: 1
 pre-reqs:
 - perm=civs.create.dukeoffence
 
-build-radius: 4  9x9x9
+build-radius: 4  #9x9x9
 build-reqs:
 - g:window*4
 - g:door*1
@@ -28,5 +28,5 @@ effects:
 - block_fire
 - door_use
 - potion:HEAL.80
-- temporary:7200  2 hours
+- temporary:7200  #2 hours
 

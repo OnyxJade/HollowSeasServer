@@ -16,7 +16,7 @@ build-reqs:
 - REDSTONE_BLOCK*2
 - TNT*4
 
-build-radius: 2 5x5x5
+build-radius: 2 #5x5x5
 effects:
 - block_break
 - block_build

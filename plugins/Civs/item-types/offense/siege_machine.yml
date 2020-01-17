@@ -18,7 +18,7 @@ build-reqs:
 - OBSIDIAN*9
 - g:fence*12
 
-build-radius: 3 7x7x7
+build-radius: 3 #7x7x7
 effects:
 - block_break
 - block_build
@@ -30,7 +30,7 @@ towns:
 - outpost
 - keep
 
-period: 240  4 minutes
+period: 240  #4 minutes
 upkeep:
   0:
     exp: 1
