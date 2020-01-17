@@ -1,0 +1,39 @@
+Guardian1:
+  Type: ZOMBIE
+  Display: '&bThe Aqua Guardian'
+  Health: 600
+  Damage: 18
+  Armor: 0
+  BossBar:
+    Enabled: true
+    Title: 'The Aqua Guardian'
+    Range: 100
+    Color: BLUE
+    Style: SOLID
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    KnockbackResistance: 0.50
+    MovementSpeed: 0.15
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Drops:
+  DamageModifiers:
+  Equipment:
+  KillMessages:
+  - '<target.name> has been slain by the Aqua Guardian'
+  - '<target.name> has been decapitated by the Aqua Guardian'
+  - '<target.name> didnt stand a chance against the Aqua Guardian'
+  - '<target.name> was put down by the Aqua Guardian'
+  Skills:
+  - AquaGuardian1{ticks=20} ~onattack 

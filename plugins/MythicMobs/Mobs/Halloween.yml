@@ -1,0 +1,21 @@
+HalloweenBat:
+  Type: BAT
+  Display: '&7Halloween Bat!'
+  Health: 10
+  Damage: 0
+  Armor: 0
+  Options:
+HalloweenZombie:
+  Type: ZOMBIE
+  Display: '&6Halloween Zombie!'
+  Health: 40
+  Damage: 6
+  Armor: 4
+  Mount: HalloweenBat
+  Options:
+  Drops:
+  - mmoitems{type=staff;id=HALLOWEENSTAFF} 1 1
+  DamageModifiers:
+  Equipment:
+  - GOLDEN_HELMET:HEAD
+  - GOLDEN_LEGGINGS:LEGS
