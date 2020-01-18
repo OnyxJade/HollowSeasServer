@@ -1,14 +1,14 @@
 Guardian1:
   Type: ZOMBIE
-  Display: '&bThe Aqua Guardian'
+  Display: '&8The Dead Guardian'
   Health: 600
-  Damage: 18
-  Armor: 0
+  Damage: 20
+  Armor: 8
   BossBar:
     Enabled: true
-    Title: 'The Aqua Guardian'
+    Title: 'The Dead Guardian'
     Range: 100
-    Color: BLUE
+    Color: GRAY
     Style: SOLID
   Options:
     PreventOtherDrops: true
@@ -16,7 +16,7 @@ Guardian1:
     PreventRenaming: true
     PreventSunburn: true
     KnockbackResistance: 0.50
-    MovementSpeed: 0.15
+    MovementSpeed: 0.30
   Modules:
     ThreatTable: true
   AIGoalSelectors:
@@ -31,9 +31,19 @@ Guardian1:
   DamageModifiers:
   Equipment:
   KillMessages:
-  - '<target.name> has been slain by the Aqua Guardian'
-  - '<target.name> has been decapitated by the Aqua Guardian'
-  - '<target.name> didnt stand a chance against the Aqua Guardian'
-  - '<target.name> was put down by the Aqua Guardian'
+  - '<target.name> has been slain by the Dead Guardian'
+  - '<target.name> has been decapitated by the Dead Guardian'
+  - '<target.name> didnt stand a chance against the Dead Guardian'
+  - '<target.name> was put down by the Dead Guardian'
   Skills:
-  - AquaGuardian1{ticks=20} ~onattack 
+  - skill{s=DeadGuardian1} ~onTimer:500 <50 0.25
+  - skill{s=DeadGuardian2} ~onTimer:200 0.15
+  Disguise:
+    Type: zombie_villager
+    Burning: false
+    Blocking: true
+    Invisible: false
+    ShowName: false
+    Sneaking: true
+    Sprinting: true
+    ModifyBoundingBox: false

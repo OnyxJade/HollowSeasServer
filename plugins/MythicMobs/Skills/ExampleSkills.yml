@@ -30,13 +30,19 @@ AngrySludgePoison:
   - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
   - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5}
     @Self
-AquaGuardian1:
-  Cooldown: 10
-  Conditions:
-  - targetwithin 25
+DeadGuardian1:
+  Cooldown: 0
   Skills:
-  - message{m="&b<mob.name> &fYou will all die fools!"} @PlayersInWorld
-  - delay 40
+  - message{m="&8<mob.name> &fYou will all die fools!"} @PlayersNearOrigin{r=50} 
+  - delay 20
   - forcepull{spread=2} @EntitiesInRadius{r=30}
-  - delay 10
-  - consume{d=20;h=20} @target
+  - effect:smokeswirl{duration=10;interval=10} @TargetLocation
+  - delay 40
+  - consume{d=20;h=10} @PlayersNearOrigin{r=5}
+DeadGuardian2:
+  Cooldown: 0
+  Skills:
+  - message{m="&8<mob.name> &fCome Forth minions!"} @PlayersNearOrigin{r=50} 
+  - delay 20
+  - summon{type=Zombie;amount=4;radius=6} @PIR{r=20}
+  - effect:smokeswirl{duration=80;interval=20} @EntitiesInRadius{r=20}
