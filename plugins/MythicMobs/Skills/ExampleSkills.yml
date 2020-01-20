@@ -38,11 +38,11 @@ DeadGuardian1:
   - forcepull{spread=2} @EntitiesInRadius{r=30}
   - effect:smokeswirl{duration=10;interval=10} @TargetLocation
   - delay 40
-  - consume{d=20;h=10} @PlayersNearOrigin{r=5}
+  - consume{d=20;h=10} @PlayersNearOrigin{r=6}
 DeadGuardian2:
   Cooldown: 0
   Skills:
   - message{m="&8<mob.name> &fCome Forth minions!"} @PlayersNearOrigin{r=50} 
   - delay 20
-  - summon{type=Zombie;amount=4;radius=6} @PIR{r=20}
+  - summon{type=Zombie;amount=4;radius=5} @PIR{r=20}
   - effect:smokeswirl{duration=80;interval=20} @EntitiesInRadius{r=20}
