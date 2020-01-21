@@ -1,9 +1,9 @@
 GuardCaptain:
   Type: IRON_GOLEM
   Display: '&bHollowSeas &7Captain'
-  Health: 24
+  Health: 10
   Damage: 8
-  Armor: 4
+  Armor: 15
   Faction: HollowSeasGuards
   Options:
     PreventOtherDrops: true
@@ -43,7 +43,7 @@ GuardCaptain:
     Sprinting: false
     ModifyBoundingBox: false
   Skills:
-  - summon{t=Guard;amount=3;radius=4} @self ~onSpawn
+  - summon{t=Guard;amount=2;radius=4} @self ~onSpawn
 Guard:
   Type: IRON_GOLEM
   Display: '&bHollowSeas &7Guard'
