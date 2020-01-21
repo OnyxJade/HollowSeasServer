@@ -252,7 +252,7 @@ WITHERSWORD:
   name: '&8Wither Sword'
   item-particles:
     type: FIREFLIES
-    particle: SQUID_INK
+    particle: LARGE_SMOKE
   attack-damage: 12.0=14.0
   pvp-damage: 5.0
   max-durability: 1600.0
