@@ -1,0 +1,91 @@
+GuardCaptain:
+  Type: IRON_GOLEM
+  Display: '&bHollowSeas &7Captain'
+  Health: 24
+  Damage: 8
+  Armor: 4
+  Faction: HollowSeasGuards
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventMobKillDrops: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 monsters
+  - 3 OtherFactionMonsters
+  Drops:
+  DamageModifiers:
+  Equipment:
+  - iron_helmet head
+  - iron_chestplate chest
+  - iron_leggings legs
+  - iron_boots feet
+  - iron_sword hand
+  KillMessages:
+  LevelModifiers:
+  Disguise:
+    Type: player
+    Skin: 'Brandonic'
+    Player: '&bCaptain'
+    Burning: false
+    Blocking: false
+    Invisible: false
+    ShowName: false
+    Sneaking: false
+    Sprinting: false
+    ModifyBoundingBox: false
+  Skills:
+  - summon{t=Guard;amount=3;radius=4} @self ~onSpawn
+Guard:
+  Type: IRON_GOLEM
+  Display: '&bHollowSeas &7Guard'
+  Health: 20
+  Damage: 8
+  Armor: 4
+  Faction: HollowSeasGuards
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventMobKillDrops: true
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 gotoparent
+  - 2 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 monsters
+  - 3 OtherFactionMonsters
+  Drops:
+  DamageModifiers:
+  Equipment:
+  - iron_helmet head
+  - iron_chestplate chest
+  - iron_leggings legs
+  - iron_boots feet
+  - iron_sword hand
+  KillMessages:
+  LevelModifiers:
+  Disguise:
+    Type: player
+    Skin: 'Brandonic'
+    Player: '&7Guard'
+    Burning: false
+    Blocking: false
+    Invisible: false
+    ShowName: false
+    Sneaking: false
+    Sprinting: false
+    ModifyBoundingBox: false
+  Skills:
