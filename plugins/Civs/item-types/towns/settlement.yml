@@ -8,9 +8,11 @@ groups:
 - superregion
 level: 2
 
+pre-reqs:
+- perm=civs.create.settlement
+
 build-reqs:
 - council_room:1
-- perm=civs.create.settlement
 
 critical-build-reqs:
 - town_center
