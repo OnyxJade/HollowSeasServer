@@ -1,5 +1,5 @@
 GuardsSpawn:
-  Action: REPLACE
+  Action: REPLACE minecraft:cat
   Type: GuardCaptain
   Chance: 0.01
   Priority: 1
