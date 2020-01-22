@@ -1,7 +1,7 @@
 GuardsSpawn:
-  Action: REPLACE
+  Action: REPLACE OCELOT
   Type: GuardCaptain
-  Chance: 0.01
+  Chance: 0.2
   Priority: 1
   Conditions:
   - altitude{64-100} true
