@@ -10,7 +10,7 @@ Welcome to the HollowSeas GitHub page!
 
 See https://github.com/LoJoSho/HollowSeasServer/wiki on how you can help!
 
-#Resources to use
+# Resources to use
 
 Materials (Spigot API) https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 Particals (Spigot API) https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
