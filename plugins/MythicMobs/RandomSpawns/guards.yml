@@ -1,5 +1,5 @@
 GuardsSpawn:
-  Action: REPLACE
+  Action: DENY
   Type: GuardCaptain
   Chance: 0.01
   Priority: 1
