@@ -1,5 +1,5 @@
 PigmenCaptain:
-  Type: ZOMBIE_PIGMAN
+  Type: PIG_ZOMBIE
   Display: '&ePigmen Captain'
   Health: 30
   Damage: 12
