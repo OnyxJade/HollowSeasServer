@@ -7,6 +7,7 @@ STEEL_PICKAXE:
   - '&7A much more durable iron pick.'
   will-break: true
   unbreakable: true
+  
 STEEL_SHOVEL:
   material: IRON_SHOVEL
   name: '&fSteel Shovel'
@@ -17,3 +18,17 @@ STEEL_SHOVEL:
   will-break: true
   unbreakable: true
   upgrade: {}
+
+MINER_PICKAXE:
+  material: DIAMOND_PICKAXE
+  name: '&fMiner's Pick'
+  max-durability: 2000
+  lore:
+  - '&7A A pickaxe stained with the blood of slain miners'
+  enchants:
+    efficiency: 6
+  craft:
+    - MINERSALLOY MINERSALLOY MINERSALLOY
+    - AIR STEEL AIR
+    - AIR STEEL AIR
+  will-break: true
