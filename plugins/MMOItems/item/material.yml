@@ -237,7 +237,18 @@ STEEL:
 MINERSBLOOD:
   material: DRAGON_BREATH
   name: §4Blood of Miners
-  displayed-type: A bottle of blood with the Miners it has killled...
+  displayed-type: A bottle of blood with the Miners it has killed...
+  
+MINERSALLOY:
+  material: NETHER_BRICK
+  name: Miner's Alloy
+  displayed-type: A ingot infused with the blood of undead miners.
+  disable-interaction: true
+  craft:
+  - GOLD DIAMOND GOLD
+  - IRON MINERSBLOOD IRON
+  - GOLD DIAMOND GOLD
+  
 PIGMENREMAINS:
   material: NETHER_WART
   name: '&cPigmen Remains'
