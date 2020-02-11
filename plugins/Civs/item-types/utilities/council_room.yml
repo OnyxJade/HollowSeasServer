@@ -29,7 +29,7 @@
 #- chest_use
 #- port
 #- cant_override
-#- housing:2
+#- housing:0
 #
 #period: 900 #15 minutes
 #upkeep:
