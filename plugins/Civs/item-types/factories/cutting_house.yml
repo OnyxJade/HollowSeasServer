@@ -1,0 +1,47 @@
+type: region 
+icon: CHEST
+shop-icon: COOKED_SALMON
+price: 200
+groups: 
+- factory 
+level: 1
+pre-reqs:
+- member=hamlet:village:town:city:metropolis
+
+towns:
+- hamlet
+- village
+- town
+- city
+- metropolis
+
+build-reqs: # Defines the building requirements, i.e. the blocks this building requires.
+- g:secondary*9
+- g:wood*32   
+- g:door*1    
+- furnace*1   
+  
+build-radius: 2 
+
+effects:      
+- block_break 
+- block_build
+- conveyor:COOKED_SALMON
+- conveyor:COOKED_COD 
+
+period: 300
+upkeep:
+  0:
+    input:
+    - SALMON*8
+    - COAL*1
+    output:
+    - COOKED_SALMON*8
+    power-input: 1
+  1:
+    input:
+    - COD*8
+    - COAL*1
+    output:
+    - COOKED_COD*8
+    power-input: 1
