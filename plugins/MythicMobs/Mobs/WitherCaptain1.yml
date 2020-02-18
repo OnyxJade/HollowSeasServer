@@ -1,0 +1,22 @@
+WitherCaptain:
+  Type: WITHER_SKELETON
+  Display: '&8&lWither Captain'
+  Health: 75
+  Damage: 10
+  Armor: 4
+  BossBar:
+    Enabled: true
+    Title: '&8The Wither Captain'
+    Range: 20
+    Color: RED
+    Style: SOLID
+  Faction: The_Wither_Captain
+  Drops:
+  - mmoitems{type=material;id=WITHER_REMAINS} 1 .75
+  - exp 200 1
+  - WitherShield 1 0.25
+  Equipment:
+  - golden_sword:0
+  - WitherShield:OFFHAND
+  Skills:
+  - summon{type=WITHER_SKELETON;amount=3;radius=6} @PIR{r=20} ~onTimer:300

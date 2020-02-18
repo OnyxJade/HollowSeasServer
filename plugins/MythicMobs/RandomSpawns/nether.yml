@@ -1,0 +1,16 @@
+PigmenCaptainRS:
+  Action: REPLACE
+  Type: PigmenCaptain
+  Level: 1
+  Chance: 0.05
+  Priority: 10
+  UseWorldScaling: false
+  Worlds: world_nether
+PigmenCaptainRS:
+  Action: REPLACE
+  Type: WitherCaptain
+  Level: 1
+  Chance: 0.05
+  Priority: 10
+  UseWorldScaling: false
+  Worlds: world_nether

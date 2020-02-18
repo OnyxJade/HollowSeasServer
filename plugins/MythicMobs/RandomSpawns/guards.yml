@@ -1,0 +1,8 @@
+GuardsSpawn:
+  Action: DENY
+  Type: GuardCaptain
+  Chance: 0.01
+  Priority: 1
+  Conditions:
+  - altitude{64-100} true
+  Worlds: world

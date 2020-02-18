@@ -1,0 +1,34 @@
+PigmenCaptain:
+  Type: PIG_ZOMBIE
+  Display: '&ePigmen Captain'
+  Health: 30
+  Damage: 12
+  Armor: 4
+  BossBar: 
+    Enabled: true
+    Title: 'Pigman Captain'
+    Range: 20
+    Color: YELLOW
+    Style: SOLID
+  Faction: pigman
+  Options: 
+    PreventOtherDrops: true
+  Modules:
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Drops:
+  - exp 50-100 1
+  - mmoitems{type=material;id=PIGMENREMAINS} 1-2 .75
+  Equipment:
+  - DIAMOND_HELMET:HEAD
+  - GOLDEN_CHESTPLATE:CHEST
+  - GOLDEN_LEGGINGS:LEGS
+  - GOLDEN_BOOTS:FEET
+  KillMessages:
+  - '&8<target.name> has been slain by a Pigmen Captain!'
+  Skills:
+  - consume{d=10;h=14} @PlayersInRadius{r=10} ~onAttack <16 0.25

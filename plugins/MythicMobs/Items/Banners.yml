@@ -1,0 +1,10 @@
+WitherShield:
+  Id: shield
+  Options:
+    Color: BLACK
+  BannerLayers:
+  - BLACK BASE
+  - RED GRADIENT
+  - BLACK SKULL
+  - BLACK CURLY_BORDER
+  - BLACK BORDER

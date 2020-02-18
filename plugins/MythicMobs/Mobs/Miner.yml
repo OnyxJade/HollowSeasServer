@@ -1,0 +1,38 @@
+DeepMiner:
+  Type: ZOMBIE
+  Display: '&6DeepMiner &7Zombie'
+  Health: 30
+  Damage: 6
+  Armor: 2
+  BossBar:
+    Enabled: true
+    Title: '&7Deep Miner'
+    Range: 10
+    Color: WHITE
+    Style: SEGMENTED_20
+  Options:
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Drops:
+  - exp 50-100 1 
+  - GOLD_INGOT 1 1
+  - GOLD_INGOT 1 0.8
+  - GOLD_INGOT 1 0.4
+  - GOLD_INGOT 1 0.1
+  - mmoitems{type=material;id=MinersBlood} 1 .05
+  DropsPerLevel: (Below v4.4 only)
+  DamageModifiers:
+  Equipment:
+  - GOLD_HELMET HEAD
+  - GOLD_SWORD HAND
+  KillMessages:
+  - '&7<target.name> &8was killed by a &6DeepMiner' 
+  Disguise:
+  Skills:
+  - summon{type=ZOMBIE;amount=4;radius=3} @PIR{r=10} ~onTimer:300 0.1

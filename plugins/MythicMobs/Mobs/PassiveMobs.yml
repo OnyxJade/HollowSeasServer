@@ -1,0 +1,20 @@
+WoolySheep:
+  Type: SHEEP
+  Display: '&fWooly Sheep'
+  Health: 24
+  Drops:
+  - WOOL 4 1
+  - WOOL 4 0.5
+  - WOOL 4 0.1
+  - WOOL 4 0.05
+BeefyCow:
+  Type: COW
+  Display: '&fBeefy Cow'
+  Health: 30
+  Drops:
+  - Beef 4 1
+  - Beef 4 0.5
+  - Beef 4 0.1
+  - Beef 4 0.05
+  - leather 4 0.5
+  - leather 4 0.05

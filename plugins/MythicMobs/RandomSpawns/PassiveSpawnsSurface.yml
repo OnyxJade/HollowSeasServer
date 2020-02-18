@@ -1,0 +1,22 @@
+rsWoolySheep:
+  Action: REPLACE
+  Type: WoolySheep
+  Level: 1
+  Chance: 0.1
+  Priority: 1
+  UseWorldScaling: false
+  Worlds: world
+  Biomes: PLAINS,FOREST
+  Conditions:
+  - lightlevel 15
+rsBeefyCows:
+  Action: REPLACE
+  Type: BeefyCow
+  Level: 1
+  Chance: 0.1
+  Priority: 1
+  UseWorldScaling: false
+  Worlds: world
+  Biomes: PLAINS,FOREST
+  Conditions:
+  - lightlevel 15

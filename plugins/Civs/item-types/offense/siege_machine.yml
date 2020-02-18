@@ -14,7 +14,7 @@ pre-reqs:
 
 build-reqs:
 - TNT*5
-- SIGN*1,WALL_SIGN*1
+- g:sign*2
 - OBSIDIAN*9
 - g:fence*12
 

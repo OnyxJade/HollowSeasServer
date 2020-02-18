@@ -1,0 +1,48 @@
+Guardian1:
+  Type: zombie_villager
+  Display: '&8The Dead Guardian'
+  Health: 1000
+  Damage: 20
+  Armor: 10
+  BossBar:
+    Enabled: true
+    Title: 'The Dead Guardian'
+    Range: 100
+    Color: GRAY
+    Style: SOLID
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    KnockbackResistance: 0.60
+    MovementSpeed: 0.35
+  Modules:
+    ThreatTable: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Drops:
+  - exp 1500 1
+  - rotten_flesh 128 1
+  - bone 206 1
+  - golden_apple 8 1
+  - totem_of_undying 4 1
+  - zombie_head 1 1
+  DamageModifiers:
+  Equipment:
+  KillMessages:
+  - '<target.name> has been slain by the Dead Guardian'
+  - '<target.name> has been decapitated by the Dead Guardian'
+  - '<target.name> didnt stand a chance against the Dead Guardian'
+  - '<target.name> was put down by the Dead Guardian'
+  Skills:
+  - skill{s=DeadGuardian1} ~onTimer:500 <50 0.30
+  - skill{s=DeadGuardian2} ~onTimer:200 0.15
+  - shootskull @target ~onTimer:1000 <75 .30
+  - throw @target ~onTimer:750 .75
